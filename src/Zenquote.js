@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+//future api, will take some logic to iterate over https://type.fit/api/quotes
+
 const QUOTE_API = 'https://api.github.com/zen'
 class Zenquote extends Component {
   constructor(props){
