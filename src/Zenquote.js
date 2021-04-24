@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './Zenquote.scss';
 
 //future api, will take some logic to iterate over https://type.fit/api/quotes
 
@@ -26,8 +27,8 @@ class Zenquote extends Component {
 
   render(){
     return (
-      <div>
-        <h1>{this.state.quote}</h1>
+      <div className="Zenquote">
+        <h1 className="Zenquote__text">{this.state.quote}</h1>
       </div>
     )
   }

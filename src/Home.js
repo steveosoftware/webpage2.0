@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import Zenquote from './Zenquote';
+import sky from './assets/images/sky.mp4';
+import './Home.scss';
 
 class Home extends Component {
 
   render(){
     return (
-      <div>
+      <div className="Home">
+        <div className="Home-video">
+          <video className="Home-video__content" autoPlay loop muted>
+          <source src={sky} type="video/mp4"/>
+
+          </video>
+        </div>
         <Zenquote />
       </div>
     )

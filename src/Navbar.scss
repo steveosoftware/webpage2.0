@@ -1,0 +1,19 @@
+.brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin: 1.2rem 0rem;
+  font-size: 1.45rem;
+}
+
+.link{
+  margin-top: 1.8rem;
+
+}
+.home-link{
+  margin-left: 4rem;
+}
+.home-link::after{
+  text-decoration: none;
+}

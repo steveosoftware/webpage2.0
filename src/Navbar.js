@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import headshot from './assets/images/headshot.jpg';
 import './Navbar.scss';
 
 class Navbar extends Component {
@@ -15,12 +14,12 @@ class Navbar extends Component {
         </button>
     <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item disable">
+          <li className="nav-item">
           <NavLink className="nav-link brand" to="/">SteveoSoftware</NavLink>
           </li>
 
-            <li className="nav-item link home-link">
-                <NavLink className="nav-link" to="/">Home</NavLink>
+            <li className="nav-item link home-link disable">
+                <NavLink className="nav-link disable" exact to="/">Home</NavLink>
             </li>
             <li className="nav-item link">
                 <NavLink exact to="/about" className="nav-link">About</NavLink>
