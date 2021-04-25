@@ -25,16 +25,16 @@ class Projects extends Component{
 
       },
       {
+        title: 'Dad-Humor',
+        image: 'https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1317/2020/02/14154039/dadjokes.jpg',
+        body: 'A React app pulling material from a joke API.  Dolled up with Sass and a fun voting feature with emojis.  A good old fashioned knee slapper',
+        link: 'https://master.d25wmn58o7h7ta.amplifyapp.com/'
+      },
+      {
         title: 'Natours',
         image: 'https://images.unsplash.com/photo-1600417601126-9654823201c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80',
         body: 'A demonstration of advanced CSS and Sass, complete with media queries to scale to tablets and phones.  Deployed on AWS.',
         link: 'https://main.d2mv1budolvxgk.amplifyapp.com/'
-      },
-      {
-        title: 'yt-app',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlu0e5qToFGb4kMm4jxbj8tWBbeMQ41UKc4g&usqp=CAU',
-        body: 'Incorporating YouTube API, users can integrate the code for this app to stream content directly onto their websites.  Deployed on Heroku.',
-        link: 'https://mysterious-forest-74819.herokuapp.com/'
       },
       {
         title: 'Trillio',
