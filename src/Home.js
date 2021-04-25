@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Zenquote from './Zenquote';
-import sky from './assets/images/sky.mp4';
+import sky from './assets/images/keyboard.mp4';
 import './Home.scss';
 
 class Home extends Component {

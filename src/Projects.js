@@ -48,7 +48,7 @@ class Projects extends Component{
   render(){
     const cards = this.props.projects.map(card => (
 
-            <div className="cards card col-lg-3">
+            <div className="cards card col-lg-3" style={{ padding: 0 }}>
               <img className="card-img-top img-fluid" src={card.image} alt={card.name}/>
               <div className="card-body">
                 <h2 className="card-title text-center">{card.title}</h2>
@@ -63,8 +63,6 @@ class Projects extends Component{
     return(
       <div className="container-fluid">
         <div className="row">
-
-
             {cards}
           </div>
         </div>

@@ -16,6 +16,11 @@ class About extends Component {
         In my spare time, I enjoy playing trumpet, woodworking, and hanging out with my wife and son.</p> */}
       </div>
       </div>
+      <div>
+      <p className="About__email">mrsteveoconnor@gmail.com</p>
+      <p className="About__email">562.508.5943</p>
+      </div>
+
     </div>
 
     )
