@@ -65,6 +65,10 @@ class Projects extends Component{
         <div className="row">
             {cards}
           </div>
+          <div>
+      <p className="About__email">mrsteveoconnor@gmail.com</p>
+      <p className="About__email">562.508.5943</p>
+      </div>
         </div>
 
 
