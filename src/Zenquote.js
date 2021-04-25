@@ -28,7 +28,7 @@ class Zenquote extends Component {
   render(){
     return (
       <div className="Zenquote">
-        <h1 className="Zenquote__text">{this.state.quote}</h1>
+        <div className="Zenquote__text">{this.state.quote}</div>
       </div>
     )
   }
