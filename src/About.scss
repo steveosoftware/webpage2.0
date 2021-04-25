@@ -17,10 +17,12 @@ $bp-small: 43.5em; //600px
     padding: 2rem;
 
     @media only screen and(max-width: $bp-medium){
-      width: 60%;
+      width: 70%;
+
     }
     @media only screen and(max-width: $bp-small){
       width: 90%;
+      height: auto;
     }
   }
   &__content{

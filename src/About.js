@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.scss';
-import jack from './assets/images/screenshot.jpg';
+import screenshot from './assets/images/screenshot.jpg';
 
 class About extends Component {
 
@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div className="About">
         <div className="About__container">
-        <img className="About__image" src={jack} alt="jack"/>
+        <img className="About__image" src={screenshot} alt="jack"/>
 
        <div className="About__content">
        {/* <p className="About__text carousel-caption">I am a full stack developer with a passion for delivering applications with intuitive    and elegant designs. While building client side applications with React and Sass is my specialty, I enjoy it all, from creative front end development to pragmatic backend solutions, and everything in between.
