@@ -24,7 +24,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="Home-video">
-          <video className="Home-video__content" autoPlay loop muted>
+          <video className="Home-video__content" autoPlay loop muted playsinline>
           <source src='https://keyboardvid.s3.us-east-2.amazonaws.com/keyboard.mp4' type="video/mp4"/>
 
           </video>
