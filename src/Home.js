@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Zenquote from './Zenquote';
-import keyboard from './assets/images/video.mp4';
 import './Home.scss';
 import { Storage } from 'aws-amplify';
 
@@ -26,7 +25,7 @@ class Home extends Component {
       <div className="Home">
         <div className="Home-video">
           <video className="Home-video__content" autoPlay loop muted>
-          <source src={keyboard} type="video/mp4"/>
+          <source src='https://keyboardvid.s3.us-east-2.amazonaws.com/keyboard.mp4' type="video/mp4"/>
 
           </video>
         </div>
