@@ -6,7 +6,7 @@ class Projects extends Component {
     projects: [
       {
         title: "Rainbow Room",
-        image: "https://www.color-hex.com/palettes/895.png",
+        image: "https://www.color-hex.com/palettes/5361.png",
         body: "Make a custom color palette.  Copy hex, rgb, or rgba color codes to your clipboard for use in other projects or apps like Word or Pages.",
         link: "https://main.d2zbqiupipu9kj.amplifyapp.com/",
       },
